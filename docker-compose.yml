@@ -2,7 +2,8 @@ version: '2'
 
 services:
   mldonkey:
-    image: cheungpat/mldonkey
+    build: .
+    image: huangyingw/mldonkey
     volumes:
     - ./data:/var/lib/mldonkey
     - data:/var/lib/mldonkey/temp
