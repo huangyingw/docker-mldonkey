@@ -1,3 +1,4 @@
 *.findresult
 *.sw[a-z]
 .git
+var/lib/mldonkey
