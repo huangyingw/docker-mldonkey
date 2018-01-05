@@ -7,3 +7,5 @@ services:
         volumes:
             - ./data:/var/lib/mldonkey
         network_mode: "host"
+        env_file:
+            - mldonkey.env
