@@ -1,0 +1,12 @@
+[remote "origin"]
+    url = https://github.com/cheungpat/docker-mldonkey.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "github"]
+    url = git@github.com:huangyingw/docker-mldonkey.git
+    fetch = +refs/heads/*:refs/remotes/github/*
+[push]
+    remote = github
+[gsync]
+    remote = origin
+    branch = master
+
